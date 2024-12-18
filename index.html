@@ -77,3 +77,22 @@
         <p id="modal-description"></p>
     </div>
 </div>
+<footer class="main-footer">
+    <div class="container">
+        <p>© 2024 แนะนำจังหวัดฉะเชิงเทรา. All rights reserved.</p>
+    </div>
+</footer>
+<script>
+    function openModal(title, description, imageUrl) {
+        document.getElementById('modal-title').innerText = title;
+        document.getElementById('modal-description').innerText = description;
+        document.getElementById('modal-image').src = imageUrl;
+        document.getElementById('modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+    }
+    </script>
+</body>
+</html>
