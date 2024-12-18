@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    line-height: 1.6;
+    background-color: #f0d5d5;
+    color: #1f1e1e;
+}
+.main-header {
+    background-color: #ca2e2e;
+    color: #1f1e1e;
+    padding: 20px 0;
+    text-align: center;
+}
+.main-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.main-header .nav-list {
+    list-style: none;
+}
+.main-header .nav-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.main-header .nav-list a {
+    color: #1f1e1e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.main-header .nav-list a:hover {
+    color: #ffd700;
+}
