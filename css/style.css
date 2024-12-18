@@ -9,7 +9,7 @@
 body {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     line-height: 1.6;
-    background-color: #f0d5d5;
+    background-color: #e3cce6;
     color: #1f1e1e;
 }
 
@@ -84,7 +84,7 @@ h2 {
 }
 
 .card {
-    background-color: #b86b6b;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
