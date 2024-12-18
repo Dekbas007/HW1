@@ -15,7 +15,7 @@ body {
 
 /* ส่วนหัว */
 .main-header {
-    background-color: #ca2e2e;
+    background-color: #b76aca;
     color: #1f1e1e;
     padding: 20px 0;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .main-header .nav-list a:hover {
-    color: #ffd700;
+    color: #8be978;
 }
 
 /* หัวข้อ */
@@ -162,7 +162,7 @@ h2 {
     top: 10px;
     right: 15px;
     font-size: 2rem;
-    color: #ca2e2e;
+    color: #b76aca;
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -173,7 +173,7 @@ h2 {
 
 /* ส่วน footer */
 .main-footer {
-    background-color: #ca2e2e;
+    background-color: #b76aca;
     color: #fff;
     text-align: center;
     padding: 15px 0;
