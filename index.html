@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>แนะนำจังหวัดฉะเชิงเทรา</title>
     <!-- ลิงก์ไปยังไฟล์ CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +16,7 @@
             <nav>
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="contart.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,6 +42,7 @@
                 <h3>วัดโสธรวรารามวรวิหาร</h3>
             </div>
         </div>
+        
     <div class="card" onclick="openModal('ตลาดบ้านใหม่ร้อยปี เมืองแปดริ้ว', 'เป็นแหล่งท่องเที่ยวเชิงวัฒนธรรมริมแม่น้ำบางปะกง โดดเด่นด้วยบรรยากาศย้อนยุค ร้านค้าโบราณ และอาหารพื้นบ้านที่หาทานยาก', 'images/market100year.jpg')">
             <img src="images/market100year.jpg" alt="ตลาดบ้านใหม่ร้อยปี เมืองแปดริ้ว">
             <div class="card-content">
@@ -54,8 +55,8 @@
                 <h3>สวนปาล์มฟาร์มนก</h3>
             </div>
         </div>
-    <div class="card" onclick="openModal('วัดสมานรัตนาราม', 'เป็นที่ตั้งของพระพิฆเนศปางนอนเสวยสุของค์ใหญ่ที่สุดในไทย และยังเป็นสถานที่ศักดิ์สิทธิ์ที่ดึงดูดผู้คนให้มาสักการะเพื่อขอพรและความเป็นสิริมงคล', 'images/watsaman.png')">
-            <img src="images/watsaman.png" alt="วัดสมานรัตนาราม">
+    <div class="card" onclick="openModal('วัดสมานรัตนาราม', 'เป็นที่ตั้งของพระพิฆเนศปางนอนเสวยสุของค์ใหญ่ที่สุดในไทย และยังเป็นสถานที่ศักดิ์สิทธิ์ที่ดึงดูดผู้คนให้มาสักการะเพื่อขอพรและความเป็นสิริมงคล', 'images/watsaman.jpg')">
+            <img src="images/watsaman.jpg" alt="วัดสมานรัตนาราม">
             <div class="card-content">
                 <h3>วัดสมานรัตนาราม</h3>
             </div>
@@ -69,6 +70,7 @@
     </div>
 </div>
 </section>
+
 <div id="modal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
@@ -77,11 +79,13 @@
         <p id="modal-description"></p>
     </div>
 </div>
+
 <footer class="main-footer">
     <div class="container">
         <p>© 2024 แนะนำจังหวัดฉะเชิงเทรา. All rights reserved.</p>
     </div>
 </footer>
+
 <script>
     function openModal(title, description, imageUrl) {
         document.getElementById('modal-title').innerText = title;
